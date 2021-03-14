@@ -35,6 +35,14 @@ function calculateTotalIncome(weeklyIncome ,yearlyIncome);{
 
 calculateTotalIncome(weeklyIncome,yearlyIncome);
 
+//calculate total income in a leap year
+
+var months = [ 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  var daymonth= [ 31,29,31,30,31,30,31,31,30,31,30,31];
+  var totalKshs =["2617020","2448180","2617020","2532600", "2617020","2532600","2617020","2617020", "2532600","2617020","2532600","2617020"];
+  for (i = 0; i<months.length; i++){
+  console.log('Your income for ' + months[i] +  "  is "  +  totalKshs[i]  +  "Kshs" );
+  }
 
 
 
