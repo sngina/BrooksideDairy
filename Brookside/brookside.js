@@ -1,0 +1,40 @@
+// calculating milk production daily
+
+var productionShedA = 510 ;
+var productionShedB = 308;
+var productionShedC = 486;
+var productionShedD = 572;
+var shedProduction  = [productionShedA ,productionShedB , productionShedC, productionShedD];
+var shedName  = ["shedA" , "shedB", "shedC" ,"shedD"];
+  
+//calculate total shed production 
+
+function calculateTotalProduction(shedProduction ,shedName) {
+    var totalProduction = 0;
+    for (var i =0; i<shedProduction.length; i++){
+        console.log("Your production in " + shedName[i] + " is " + shedProduction[i] + " litres per day");
+    }
+
+}
+
+calculateTotalProduction(shedProduction,shedName);
+
+//calculating total amount a week and in a year
+
+var weeklyIncome = 590940;
+var yearlyIncome  = 30181330;
+var  totalIncome  =["weeklyIncome" ,"yearlyIncome"];
+
+function calculateTotalIncome(weeklyIncome ,yearlyIncome);{
+       var calculateTotalIncome = 0;
+       for ( var i=0; <totalProduction.length; i++)
+       console.log("Your  income  will  be"  +  weeklyIncome[i]   "and"    yearlyIncome[i]);
+}
+    
+
+
+calculateTotalIncome(weeklyIncome,yearlyIncome);
+
+
+
+
